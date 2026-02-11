@@ -533,35 +533,35 @@ outlines:
   standoffs_left_xs:
     - what: circle
       operation: stack
-      radius: 0.9
+      radius: 0.95
       where:
         ref: matrix_first_bottom
         shift: [pushX, -pushY]
 
     - what: circle
       operation: stack
-      radius: 0.9
+      radius: 0.95
       where:
         ref: matrix_second_num
         shift: [-pushX, -pushY]
 
     - what: circle
       operation: stack
-      radius: 0.9
+      radius: 0.95
       where:
         ref: matrix_fifth_top
         shift: [-pushX, pushY]
 
     - what: circle
       operation: stack
-      radius: 0.9
+      radius: 0.95
       where:
         ref: matrix_fourth_bottom
         shift: [-pushX, pushY]
 
     - what: circle
       operation: stack
-      radius: 0.9
+      radius: 0.95
       where:
         ref: matrix_fifth_mod
         shift: [-pushX, pushY]
@@ -916,35 +916,35 @@ outlines:
   standoffs_right_xs:
     - what: circle
       operation: stack
-      radius: 0.9
+      radius: 0.95
       where:
         ref: mirror_matrix_first_bottom
         shift: [pushX, -pushY]
 
     - what: circle
       operation: stack
-      radius: 0.9
+      radius: 0.95
       where:
         ref: mirror_matrix_second_num
         shift: [-pushX, -pushY]
 
     - what: circle
       operation: stack
-      radius: 0.9
+      radius: 0.95
       where:
         ref: mirror_matrix_fifth_top
         shift: [-pushX, pushY]
 
     - what: circle
       operation: stack
-      radius: 0.9
+      radius: 0.95
       where:
         ref: mirror_matrix_fourth_bottom
         shift: [-pushX, pushY]
 
     - what: circle
       operation: stack
-      radius: 0.9
+      radius: 0.95
       where:
         ref: mirror_matrix_fifth_mod
         shift: [-pushX, pushY]

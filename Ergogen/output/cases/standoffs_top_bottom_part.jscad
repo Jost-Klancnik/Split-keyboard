@@ -1,23 +1,23 @@
 function standoffs_top_left_screw_part_extrude_6_2_outline_fn(){
     return CAG.circle({"center":[67,14.5],"radius":2})
 .subtract(
-    CAG.circle({"center":[67,14.5],"radius":0.9})
+    CAG.circle({"center":[67,14.5],"radius":0.95})
 ).union(
     CAG.circle({"center":[48,39.5],"radius":2})
 .subtract(
-    CAG.circle({"center":[48,39.5],"radius":0.9})
+    CAG.circle({"center":[48,39.5],"radius":0.95})
 )).union(
     CAG.circle({"center":[67,71.5],"radius":2})
 .subtract(
-    CAG.circle({"center":[67,71.5],"radius":0.9})
+    CAG.circle({"center":[67,71.5],"radius":0.95})
 )).union(
     CAG.circle({"center":[10,67.5],"radius":2})
 .subtract(
-    CAG.circle({"center":[10,67.5],"radius":0.9})
+    CAG.circle({"center":[10,67.5],"radius":0.95})
 )).union(
     CAG.circle({"center":[9,10.5],"radius":2})
 .subtract(
-    CAG.circle({"center":[9,10.5],"radius":0.9})
+    CAG.circle({"center":[9,10.5],"radius":0.95})
 )).extrude({ offset: [0, 0, 6.2] });
 }
 
