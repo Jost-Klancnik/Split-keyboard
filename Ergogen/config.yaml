@@ -101,80 +101,80 @@ outlines:
       fillet: 2
       points:
         # Top
-      - ref: matrix_first_num
-        shift: [-padX, padY]
-      - ref: matrix_second_num
-        shift: [pushX - pad, padY]
-      - ref: matrix_third_num
-        shift: [-pushX - pad, padY]
-      - ref: matrix_third_num
-        shift: [pushX - pad, padY]
-      - ref: matrix_fourth_num
-        shift: [-pushX - pad, padY]
-      - ref: matrix_fourth_num
-        shift: [padX, padY]
-      - ref: matrix_fifth_num
-        shift: [-pushX + pad, padY]
-      - ref: matrix_fifth_num
-        shift: [padX, padY]
-      - ref: matrix_sixth_num
-        shift: [-pushX + 2.3542486, padY]
-      - ref: matrix_sixth_num
-        shift: [padX, padY]
+        - ref: matrix_first_num
+          shift: [-padX, padY]
+        - ref: matrix_second_num
+          shift: [pushX - pad, padY]
+        - ref: matrix_third_num
+          shift: [-pushX - pad, padY]
+        - ref: matrix_third_num
+          shift: [pushX - pad, padY]
+        - ref: matrix_fourth_num
+          shift: [-pushX - pad, padY]
+        - ref: matrix_fourth_num
+          shift: [padX, padY]
+        - ref: matrix_fifth_num
+          shift: [-pushX + pad, padY]
+        - ref: matrix_fifth_num
+          shift: [padX, padY]
+        - ref: matrix_sixth_num
+          shift: [-pushX + 2.3542486, padY]
+        - ref: matrix_sixth_num
+          shift: [padX, padY]
 
-      # Spremenjeno ker more it do sredine thumbou
-      - ref: matrix_sixth_mod
-        shift: [padX, -padY]
+        # Spremenjeno ker more it do sredine thumbou
+        - ref: matrix_sixth_mod
+          shift: [padX, -padY]
 
-      - ref: thumbs_t1_thumb
-        shift: [0.25padX, padY]
-      - ref: thumbs_t1_thumb
-        shift: [padX, padY]
-      - ref: thumbs_t2_thumb
-        shift: [-pushX + 1.6pad, padY]
-      - ref: thumbs_t2_thumb
-        shift: [padX, padY]
-      - ref: thumbs_t2_thumb
-        shift: [padX, -padY]
-      - ref: thumbs_t2_thumb
-        shift: [-padX, -padY]
-      - ref: thumbs_t1_thumb
-        shift: [pushX - 1.6pad, -padY]
-      - ref: thumbs_t1_thumb
-        shift: [-padX, -padY]
-      - ref: thumbs_t1_thumb
-        shift: [-padX, 0.4pushY]
+        - ref: thumbs_t1_thumb
+          shift: [0.25padX, padY]
+        - ref: thumbs_t1_thumb
+          shift: [padX, padY]
+        - ref: thumbs_t2_thumb
+          shift: [-pushX + 1.6pad, padY]
+        - ref: thumbs_t2_thumb
+          shift: [padX, padY]
+        - ref: thumbs_t2_thumb
+          shift: [padX, -padY]
+        - ref: thumbs_t2_thumb
+          shift: [-padX, -padY]
+        - ref: thumbs_t1_thumb
+          shift: [pushX - 1.6pad, -padY]
+        - ref: thumbs_t1_thumb
+          shift: [-padX, -padY]
+        - ref: thumbs_t1_thumb
+          shift: [-padX, 0.4pushY]
 
 
-      - ref: matrix_sixth_mod
-        shift: [-pushX, -padY]
-      - ref: matrix_fifth_mod
-        shift: [pushX - pad, -padY]
-      - ref: matrix_fifth_mod
-        shift: [-padX, -padY]
-      - ref: matrix_fourth_mod
-        shift: [pushX - pad, -padY]
-      - ref: matrix_fourth_mod
-        shift: [-pushX + pad, -padY]
-      - ref: matrix_third_mod
-        shift: [pushX + pad, -padY]
-      - ref: matrix_third_mod
-        shift: [-pushX + pad, -padY]
-      - ref: matrix_second_mod
-        shift: [pushX + pad, -padY]
-      - ref: matrix_second_mod
-        shift: [-pushX + pad, -padY]
-      - ref: matrix_first_mod
-        shift: [-padX, -padY]
+        - ref: matrix_sixth_mod
+          shift: [-pushX, -padY]
+        - ref: matrix_fifth_mod
+          shift: [pushX - pad, -padY]
+        - ref: matrix_fifth_mod
+          shift: [-padX, -padY]
+        - ref: matrix_fourth_mod
+          shift: [pushX - pad, -padY]
+        - ref: matrix_fourth_mod
+          shift: [-pushX + pad, -padY]
+        - ref: matrix_third_mod
+          shift: [pushX + pad, -padY]
+        - ref: matrix_third_mod
+          shift: [-pushX + pad, -padY]
+        - ref: matrix_second_mod
+          shift: [pushX + pad, -padY]
+        - ref: matrix_second_mod
+          shift: [-pushX + pad, -padY]
+        - ref: matrix_first_mod
+          shift: [-padX, -padY]
 
-      # - ref: thumbs_t1_thumb
-      #   shift: [-padX, -padY - 0.5u]   # levi thumb, nekoliko nižje
-      # - ref: thumbs_t2_thumb
-      #   shift: [padX, -padY - 0.7u]
+        # - ref: thumbs_t1_thumb
+        #   shift: [-padX, -padY - 0.5u]   # levi thumb, nekoliko nižje
+        # - ref: thumbs_t2_thumb
+        #   shift: [padX, -padY - 0.7u]
 
-      # Connect to top
-      - ref: matrix_first_num
-        shift: [-padX, -padY]
+        # Connect to top
+        - ref: matrix_first_num
+          shift: [-padX, -padY]
 
   board_right:
     - what: polygon
@@ -259,80 +259,80 @@ outlines:
       # fillet: 2
       points:
         # Top
-      - ref: matrix_first_num
-        shift: [-padX - caseBorderInner, padY + caseBorderInner]
-      - ref: matrix_second_num
-        shift: [pushX - pad - caseBorderInner, padY + caseBorderInner]
-      - ref: matrix_third_num
-        shift: [-pushX - pad - caseBorderInner, padY + caseBorderInner]
-      - ref: matrix_third_num
-        shift: [pushX - pad - caseBorderInner, padY + caseBorderInner]
-      - ref: matrix_fourth_num
-        shift: [-pushX - pad - caseBorderInner, padY + caseBorderInner]
-      - ref: matrix_fourth_num
-        shift: [padX + caseBorderInner, padY + caseBorderInner]
-      - ref: matrix_fifth_num
-        shift: [-pushX + pad + caseBorderInner, padY + caseBorderInner]
-      - ref: matrix_fifth_num
-        shift: [padX + caseBorderInner, padY + caseBorderInner]
-      - ref: matrix_sixth_num
-        shift: [-pushX + 2.3542486 + caseBorderInner, padY + caseBorderInner]
-      - ref: matrix_sixth_num
-        shift: [padX + caseBorderInner, padY + caseBorderInner]
+        - ref: matrix_first_num
+          shift: [-padX - caseBorderInner, padY + caseBorderInner]
+        - ref: matrix_second_num
+          shift: [pushX - pad - caseBorderInner, padY + caseBorderInner]
+        - ref: matrix_third_num
+          shift: [-pushX - pad - caseBorderInner, padY + caseBorderInner]
+        - ref: matrix_third_num
+          shift: [pushX - pad - caseBorderInner, padY + caseBorderInner]
+        - ref: matrix_fourth_num
+          shift: [-pushX - pad - caseBorderInner, padY + caseBorderInner]
+        - ref: matrix_fourth_num
+          shift: [padX + caseBorderInner, padY + caseBorderInner]
+        - ref: matrix_fifth_num
+          shift: [-pushX + pad + caseBorderInner, padY + caseBorderInner]
+        - ref: matrix_fifth_num
+          shift: [padX + caseBorderInner, padY + caseBorderInner]
+        - ref: matrix_sixth_num
+          shift: [-pushX + 2.3542486 + caseBorderInner, padY + caseBorderInner]
+        - ref: matrix_sixth_num
+          shift: [padX + caseBorderInner, padY + caseBorderInner]
 
-      # Spremenjeno ker more it do sredine thumbou
-      - ref: matrix_sixth_mod
-        shift: [padX + caseBorderInner, -padY + caseBorderInner]
+        # Spremenjeno ker more it do sredine thumbou
+        - ref: matrix_sixth_mod
+          shift: [padX + caseBorderInner, -padY + caseBorderInner]
 
-      - ref: thumbs_t1_thumb
-        shift: [0.25padX + caseBorderInner, padY + caseBorderInner]
-      - ref: thumbs_t1_thumb
-        shift: [padX + caseBorderInner, padY + caseBorderInner]
-      - ref: thumbs_t2_thumb
-        shift: [-pushX + 1.6pad + caseBorderInner, padY + caseBorderInner]
-      - ref: thumbs_t2_thumb
-        shift: [padX +  caseBorderInner, padY + caseBorderInner]
-      - ref: thumbs_t2_thumb
-        shift: [padX + caseBorderInner, -padY - caseBorderInner]
-      - ref: thumbs_t2_thumb
-        shift: [-padX - caseBorderInner, -padY - caseBorderInner]
-      - ref: thumbs_t1_thumb
-        shift: [pushX - 1.6pad - caseBorderInner, -padY - caseBorderInner]
-      - ref: thumbs_t1_thumb
-        shift: [-padX - caseBorderInner, -padY - caseBorderInner]
-      - ref: thumbs_t1_thumb
-        shift: [-padX - caseBorderInner, 0.4pushY - caseBorderInner]
+        - ref: thumbs_t1_thumb
+          shift: [0.25padX + caseBorderInner, padY + caseBorderInner]
+        - ref: thumbs_t1_thumb
+          shift: [padX + caseBorderInner, padY + caseBorderInner]
+        - ref: thumbs_t2_thumb
+          shift: [-pushX + 1.6pad + caseBorderInner, padY + caseBorderInner]
+        - ref: thumbs_t2_thumb
+          shift: [padX +  caseBorderInner, padY + caseBorderInner]
+        - ref: thumbs_t2_thumb
+          shift: [padX + caseBorderInner, -padY - caseBorderInner]
+        - ref: thumbs_t2_thumb
+          shift: [-padX - caseBorderInner, -padY - caseBorderInner]
+        - ref: thumbs_t1_thumb
+          shift: [pushX - 1.6pad - caseBorderInner, -padY - caseBorderInner]
+        - ref: thumbs_t1_thumb
+          shift: [-padX - caseBorderInner, -padY - caseBorderInner]
+        - ref: thumbs_t1_thumb
+          shift: [-padX - caseBorderInner, 0.4pushY - caseBorderInner]
 
 
-      - ref: matrix_sixth_mod
-        shift: [-pushX - caseBorderInner, -padY - caseBorderInner]
-      - ref: matrix_fifth_mod
-        shift: [pushX - pad - caseBorderInner, -padY - caseBorderInner]
-      - ref: matrix_fifth_mod
-        shift: [-padX - caseBorderInner, -padY - caseBorderInner]
-      - ref: matrix_fourth_mod
-        shift: [pushX - pad - caseBorderInner, -padY - caseBorderInner]
-      - ref: matrix_fourth_mod
-        shift: [-pushX + caseBorderInner + pad, -padY - caseBorderInner]
-      - ref: matrix_third_mod
-        shift: [pushX + pad + caseBorderInner, -padY - caseBorderInner]
-      - ref: matrix_third_mod
-        shift: [-pushX + pad + caseBorderInner, -padY - caseBorderInner]
-      - ref: matrix_second_mod
-        shift: [pushX + pad + caseBorderInner, -padY - caseBorderInner]
-      - ref: matrix_second_mod
-        shift: [-pushX + pad - caseBorderInner, -padY - caseBorderInner]
-      - ref: matrix_first_mod
-        shift: [-padX - caseBorderInner, -padY - caseBorderInner]
+        - ref: matrix_sixth_mod
+          shift: [-pushX - caseBorderInner, -padY - caseBorderInner]
+        - ref: matrix_fifth_mod
+          shift: [pushX - pad - caseBorderInner, -padY - caseBorderInner]
+        - ref: matrix_fifth_mod
+          shift: [-padX - caseBorderInner, -padY - caseBorderInner]
+        - ref: matrix_fourth_mod
+          shift: [pushX - pad - caseBorderInner, -padY - caseBorderInner]
+        - ref: matrix_fourth_mod
+          shift: [-pushX + caseBorderInner + pad, -padY - caseBorderInner]
+        - ref: matrix_third_mod
+          shift: [pushX + pad + caseBorderInner, -padY - caseBorderInner]
+        - ref: matrix_third_mod
+          shift: [-pushX + pad + caseBorderInner, -padY - caseBorderInner]
+        - ref: matrix_second_mod
+          shift: [pushX + pad + caseBorderInner, -padY - caseBorderInner]
+        - ref: matrix_second_mod
+          shift: [-pushX + pad - caseBorderInner, -padY - caseBorderInner]
+        - ref: matrix_first_mod
+          shift: [-padX - caseBorderInner, -padY - caseBorderInner]
 
-      # - ref: thumbs_t1_thumb
-      #   shift: [-padX, -padY - 0.5u]   # levi thumb, nekoliko nižje
-      # - ref: thumbs_t2_thumb
-      #   shift: [padX, -padY - 0.7u]
+        # - ref: thumbs_t1_thumb
+        #   shift: [-padX, -padY - 0.5u]   # levi thumb, nekoliko nižje
+        # - ref: thumbs_t2_thumb
+        #   shift: [padX, -padY - 0.7u]
 
-      # Connect to top
-      - ref: matrix_first_num
-        shift: [-padX - caseBorderInner, -padY]
+        # Connect to top
+        - ref: matrix_first_num
+          shift: [-padX - caseBorderInner, -padY]
 
   board_left_xl:
     - what: polygon
@@ -341,80 +341,80 @@ outlines:
       # fillet: 2
       points:
         # Top
-      - ref: matrix_first_num
-        shift: [-padX - caseBorder, padY + caseBorder]
-      - ref: matrix_second_num
-        shift: [pushX - pad - caseBorder, padY + caseBorder]
-      - ref: matrix_third_num
-        shift: [-pushX - pad - caseBorder, padY + caseBorder]
-      - ref: matrix_third_num
-        shift: [pushX - pad - caseBorder, padY + caseBorder]
-      - ref: matrix_fourth_num
-        shift: [-pushX - pad - caseBorder, padY + caseBorder]
-      - ref: matrix_fourth_num
-        shift: [padX + caseBorder, padY + caseBorder]
-      - ref: matrix_fifth_num
-        shift: [-pushX + pad + caseBorder, padY + caseBorder]
-      - ref: matrix_fifth_num
-        shift: [padX + caseBorder, padY + caseBorder]
-      - ref: matrix_sixth_num
-        shift: [-pushX + 2.3542486 + caseBorder, padY + caseBorder]
-      - ref: matrix_sixth_num
-        shift: [padX + caseBorder, padY + caseBorder]
+        - ref: matrix_first_num
+          shift: [-padX - caseBorder, padY + caseBorder]
+        - ref: matrix_second_num
+          shift: [pushX - pad - caseBorder, padY + caseBorder]
+        - ref: matrix_third_num
+          shift: [-pushX - pad - caseBorder, padY + caseBorder]
+        - ref: matrix_third_num
+          shift: [pushX - pad - caseBorder, padY + caseBorder]
+        - ref: matrix_fourth_num
+          shift: [-pushX - pad - caseBorder, padY + caseBorder]
+        - ref: matrix_fourth_num
+          shift: [padX + caseBorder, padY + caseBorder]
+        - ref: matrix_fifth_num
+          shift: [-pushX + pad + caseBorder, padY + caseBorder]
+        - ref: matrix_fifth_num
+          shift: [padX + caseBorder, padY + caseBorder]
+        - ref: matrix_sixth_num
+          shift: [-pushX + 2.3542486 + caseBorder, padY + caseBorder]
+        - ref: matrix_sixth_num
+          shift: [padX + caseBorder, padY + caseBorder]
 
-      # Spremenjeno ker more it do sredine thumbou
-      - ref: matrix_sixth_mod
-        shift: [padX + caseBorder, -padY + caseBorder]
+        # Spremenjeno ker more it do sredine thumbou
+        - ref: matrix_sixth_mod
+          shift: [padX + caseBorder, -padY + caseBorder]
 
-      - ref: thumbs_t1_thumb
-        shift: [0.25padX + caseBorder, padY + caseBorder]
-      - ref: thumbs_t1_thumb
-        shift: [padX + caseBorder, padY + caseBorder]
-      - ref: thumbs_t2_thumb
-        shift: [-pushX + 1.6pad + caseBorder, padY + caseBorder]
-      - ref: thumbs_t2_thumb
-        shift: [padX +  caseBorder, padY + caseBorder]
-      - ref: thumbs_t2_thumb
-        shift: [padX + caseBorder, -padY - caseBorder]
-      - ref: thumbs_t2_thumb
-        shift: [-padX - caseBorder, -padY - caseBorder]
-      - ref: thumbs_t1_thumb
-        shift: [pushX - 1.6pad - caseBorder, -padY - caseBorder]
-      - ref: thumbs_t1_thumb
-        shift: [-padX - caseBorder, -padY - caseBorder]
-      - ref: thumbs_t1_thumb
-        shift: [-padX - caseBorder, 0.4pushY - caseBorder]
+        - ref: thumbs_t1_thumb
+          shift: [0.25padX + caseBorder, padY + caseBorder]
+        - ref: thumbs_t1_thumb
+          shift: [padX + caseBorder, padY + caseBorder]
+        - ref: thumbs_t2_thumb
+          shift: [-pushX + 1.6pad + caseBorder, padY + caseBorder]
+        - ref: thumbs_t2_thumb
+          shift: [padX +  caseBorder, padY + caseBorder]
+        - ref: thumbs_t2_thumb
+          shift: [padX + caseBorder, -padY - caseBorder]
+        - ref: thumbs_t2_thumb
+          shift: [-padX - caseBorder, -padY - caseBorder]
+        - ref: thumbs_t1_thumb
+          shift: [pushX - 1.6pad - caseBorder, -padY - caseBorder]
+        - ref: thumbs_t1_thumb
+          shift: [-padX - caseBorder, -padY - caseBorder]
+        - ref: thumbs_t1_thumb
+          shift: [-padX - caseBorder, 0.4pushY - caseBorder]
 
 
-      - ref: matrix_sixth_mod
-        shift: [-pushX - caseBorder, -padY - caseBorder]
-      - ref: matrix_fifth_mod
-        shift: [pushX - pad - caseBorder, -padY - caseBorder]
-      - ref: matrix_fifth_mod
-        shift: [-padX - caseBorder, -padY - caseBorder]
-      - ref: matrix_fourth_mod
-        shift: [pushX - pad - caseBorder, -padY - caseBorder]
-      - ref: matrix_fourth_mod
-        shift: [-pushX + caseBorder + pad, -padY - caseBorder]
-      - ref: matrix_third_mod
-        shift: [pushX + pad + caseBorder, -padY - caseBorder]
-      - ref: matrix_third_mod
-        shift: [-pushX + pad + caseBorder, -padY - caseBorder]
-      - ref: matrix_second_mod
-        shift: [pushX + pad + caseBorder, -padY - caseBorder]
-      - ref: matrix_second_mod
-        shift: [-pushX + pad - caseBorder, -padY - caseBorder]
-      - ref: matrix_first_mod
-        shift: [-padX - caseBorder, -padY - caseBorder]
+        - ref: matrix_sixth_mod
+          shift: [-pushX - caseBorder, -padY - caseBorder]
+        - ref: matrix_fifth_mod
+          shift: [pushX - pad - caseBorder, -padY - caseBorder]
+        - ref: matrix_fifth_mod
+          shift: [-padX - caseBorder, -padY - caseBorder]
+        - ref: matrix_fourth_mod
+          shift: [pushX - pad - caseBorder, -padY - caseBorder]
+        - ref: matrix_fourth_mod
+          shift: [-pushX + caseBorder + pad, -padY - caseBorder]
+        - ref: matrix_third_mod
+          shift: [pushX + pad + caseBorder, -padY - caseBorder]
+        - ref: matrix_third_mod
+          shift: [-pushX + pad + caseBorder, -padY - caseBorder]
+        - ref: matrix_second_mod
+          shift: [pushX + pad + caseBorder, -padY - caseBorder]
+        - ref: matrix_second_mod
+          shift: [-pushX + pad - caseBorder, -padY - caseBorder]
+        - ref: matrix_first_mod
+          shift: [-padX - caseBorder, -padY - caseBorder]
 
-      # - ref: thumbs_t1_thumb
-      #   shift: [-padX, -padY - 0.5u]   # levi thumb, nekoliko nižje
-      # - ref: thumbs_t2_thumb
-      #   shift: [padX, -padY - 0.7u]
+        # - ref: thumbs_t1_thumb
+        #   shift: [-padX, -padY - 0.5u]   # levi thumb, nekoliko nižje
+        # - ref: thumbs_t2_thumb
+        #   shift: [padX, -padY - 0.7u]
 
-      # Connect to top
-      - ref: matrix_first_num
-        shift: [-padX - caseBorder, -padY]
+        # Connect to top
+        - ref: matrix_first_num
+          shift: [-padX - caseBorder, -padY]
 
   board_left_xl_cutouts:
     - name: board_left_xl
@@ -634,6 +634,389 @@ outlines:
     - name: board_left_l
     - operation: subtract
       name: standoffs_left_xs
+
+  board_right_l:
+    - what: polygon
+      operation: stack
+      fillet: 2
+      # fillet: 2
+      points:
+        # Top
+        - ref: mirror_matrix_first_num
+          shift: [-padX - caseBorderInner, padY + caseBorderInner]
+        - ref: mirror_matrix_second_num
+          shift: [pushX - pad - caseBorderInner, padY + caseBorderInner]
+        - ref: mirror_matrix_third_num
+          shift: [-pushX - pad - caseBorderInner, padY + caseBorderInner]
+        - ref: mirror_matrix_third_num
+          shift: [pushX - pad - caseBorderInner, padY + caseBorderInner]
+        - ref: mirror_matrix_fourth_num
+          shift: [-pushX - pad - caseBorderInner, padY + caseBorderInner]
+        - ref: mirror_matrix_fourth_num
+          shift: [padX + caseBorderInner, padY + caseBorderInner]
+        - ref: mirror_matrix_fifth_num
+          shift: [-pushX + pad + caseBorderInner, padY + caseBorderInner]
+        - ref: mirror_matrix_fifth_num
+          shift: [padX + caseBorderInner, padY + caseBorderInner]
+        - ref: mirror_matrix_sixth_num
+          shift: [-pushX + 2.3542486 + caseBorderInner, padY + caseBorderInner]
+        - ref: mirror_matrix_sixth_num
+          shift: [padX + caseBorderInner, padY + caseBorderInner]
+
+        # Spremenjeno ker more it do sredine thumbou
+        - ref: mirror_matrix_sixth_mod
+          shift: [padX + caseBorderInner, -padY + caseBorderInner]
+
+        - ref: mirror_thumbs_t1_thumb
+          shift: [0.25padX + caseBorderInner, padY + caseBorderInner]
+        - ref: mirror_thumbs_t1_thumb
+          shift: [padX + caseBorderInner, padY + caseBorderInner]
+        - ref: mirror_thumbs_t2_thumb
+          shift: [-pushX + 1.6pad + caseBorderInner, padY + caseBorderInner]
+        - ref: mirror_thumbs_t2_thumb
+          shift: [padX +  caseBorderInner, padY + caseBorderInner]
+        - ref: mirror_thumbs_t2_thumb
+          shift: [padX + caseBorderInner, -padY - caseBorderInner]
+        - ref: mirror_thumbs_t2_thumb
+          shift: [-padX - caseBorderInner, -padY - caseBorderInner]
+        - ref: mirror_thumbs_t1_thumb
+          shift: [pushX - 1.6pad - caseBorderInner, -padY - caseBorderInner]
+        - ref: mirror_thumbs_t1_thumb
+          shift: [-padX - caseBorderInner, -padY - caseBorderInner]
+        - ref: mirror_thumbs_t1_thumb
+          shift: [-padX - caseBorderInner, 0.4pushY - caseBorderInner]
+
+
+        - ref: mirror_matrix_sixth_mod
+          shift: [-pushX - caseBorderInner, -padY - caseBorderInner]
+        - ref: mirror_matrix_fifth_mod
+          shift: [pushX - pad - caseBorderInner, -padY - caseBorderInner]
+        - ref: mirror_matrix_fifth_mod
+          shift: [-padX - caseBorderInner, -padY - caseBorderInner]
+        - ref: mirror_matrix_fourth_mod
+          shift: [pushX - pad - caseBorderInner, -padY - caseBorderInner]
+        - ref: mirror_matrix_fourth_mod
+          shift: [-pushX + caseBorderInner + pad, -padY - caseBorderInner]
+        - ref: mirror_matrix_third_mod
+          shift: [pushX + pad + caseBorderInner, -padY - caseBorderInner]
+        - ref: mirror_matrix_third_mod
+          shift: [-pushX + pad + caseBorderInner, -padY - caseBorderInner]
+        - ref: mirror_matrix_second_mod
+          shift: [pushX + pad + caseBorderInner, -padY - caseBorderInner]
+        - ref: mirror_matrix_second_mod
+          shift: [-pushX + pad - caseBorderInner, -padY - caseBorderInner]
+        - ref: mirror_matrix_first_mod
+          shift: [-padX - caseBorderInner, -padY - caseBorderInner]
+
+        # - ref: thumbs_t1_thumb
+        #   shift: [-padX, -padY - 0.5u]   # levi thumb, nekoliko nižje
+        # - ref: thumbs_t2_thumb
+        #   shift: [padX, -padY - 0.7u]
+
+        # Connect to top
+        - ref: mirror_matrix_first_num
+          shift: [-padX - caseBorderInner, -padY]
+
+  board_right_xl:
+    - what: polygon
+      operation: stack
+      fillet: 2
+      # fillet: 2
+      points:
+        # Top
+        - ref: mirror_matrix_first_num
+          shift: [-padX - caseBorder, padY + caseBorder]
+        - ref: mirror_matrix_second_num
+          shift: [pushX - pad - caseBorder, padY + caseBorder]
+        - ref: mirror_matrix_third_num
+          shift: [-pushX - pad - caseBorder, padY + caseBorder]
+        - ref: mirror_matrix_third_num
+          shift: [pushX - pad - caseBorder, padY + caseBorder]
+        - ref: mirror_matrix_fourth_num
+          shift: [-pushX - pad - caseBorder, padY + caseBorder]
+        - ref: mirror_matrix_fourth_num
+          shift: [padX + caseBorder, padY + caseBorder]
+        - ref: mirror_matrix_fifth_num
+          shift: [-pushX + pad + caseBorder, padY + caseBorder]
+        - ref: mirror_matrix_fifth_num
+          shift: [padX + caseBorder, padY + caseBorder]
+        - ref: mirror_matrix_sixth_num
+          shift: [-pushX + 2.3542486 + caseBorder, padY + caseBorder]
+        - ref: mirror_matrix_sixth_num
+          shift: [padX + caseBorder, padY + caseBorder]
+
+        # Spremenjeno ker more it do sredine thumbou
+        - ref: mirror_matrix_sixth_mod
+          shift: [padX + caseBorder, -padY + caseBorder]
+
+        - ref: mirror_thumbs_t1_thumb
+          shift: [0.25padX + caseBorder, padY + caseBorder]
+        - ref: mirror_thumbs_t1_thumb
+          shift: [padX + caseBorder, padY + caseBorder]
+        - ref: mirror_thumbs_t2_thumb
+          shift: [-pushX + 1.6pad + caseBorder, padY + caseBorder]
+        - ref: mirror_thumbs_t2_thumb
+          shift: [padX +  caseBorder, padY + caseBorder]
+        - ref: mirror_thumbs_t2_thumb
+          shift: [padX + caseBorder, -padY - caseBorder]
+        - ref: mirror_thumbs_t2_thumb
+          shift: [-padX - caseBorder, -padY - caseBorder]
+        - ref: mirror_thumbs_t1_thumb
+          shift: [pushX - 1.6pad - caseBorder, -padY - caseBorder]
+        - ref: mirror_thumbs_t1_thumb
+          shift: [-padX - caseBorder, -padY - caseBorder]
+        - ref: mirror_thumbs_t1_thumb
+          shift: [-padX - caseBorder, 0.4pushY - caseBorder]
+
+
+        - ref: mirror_matrix_sixth_mod
+          shift: [-pushX - caseBorder, -padY - caseBorder]
+        - ref: mirror_matrix_fifth_mod
+          shift: [pushX - pad - caseBorder, -padY - caseBorder]
+        - ref: mirror_matrix_fifth_mod
+          shift: [-padX - caseBorder, -padY - caseBorder]
+        - ref: mirror_matrix_fourth_mod
+          shift: [pushX - pad - caseBorder, -padY - caseBorder]
+        - ref: mirror_matrix_fourth_mod
+          shift: [-pushX + caseBorder + pad, -padY - caseBorder]
+        - ref: mirror_matrix_third_mod
+          shift: [pushX + pad + caseBorder, -padY - caseBorder]
+        - ref: mirror_matrix_third_mod
+          shift: [-pushX + pad + caseBorder, -padY - caseBorder]
+        - ref: mirror_matrix_second_mod
+          shift: [pushX + pad + caseBorder, -padY - caseBorder]
+        - ref: mirror_matrix_second_mod
+          shift: [-pushX + pad - caseBorder, -padY - caseBorder]
+        - ref: mirror_matrix_first_mod
+          shift: [-padX - caseBorder, -padY - caseBorder]
+
+        # - ref: thumbs_t1_thumb
+        #   shift: [-padX, -padY - 0.5u]   # levi thumb, nekoliko nižje
+        # - ref: thumbs_t2_thumb
+        #   shift: [padX, -padY - 0.7u]
+
+        # Connect to top
+        - ref: mirror_matrix_first_num
+          shift: [-padX - caseBorder, -padY]
+
+  board_right_xl_cutouts:
+    - name: board_right_xl
+    - operation: subtract
+      name: keys
+    #- operation: subtract
+    #  what: circle
+    #  radius: 2
+    #  where:
+    #    ref: mirror_matrix_first_bottom
+    #    shift: [pushX, -pushY]
+    #- operation: subtract
+    #  what: circle
+    #  radius: 2
+    #  where:
+    #    ref: mirror_matrix_fifth_mod
+    #    shift: [-pushX, pushY]
+    #- operation: subtract
+    #  what: circle
+    #  radius: 2
+    #  where:
+    #    ref: mirror_matrix_second_num
+    #    shift: [-pushX, -pushY]
+    #- operation: subtract
+    #  what: circle
+    #  radius: 2
+    #  where:
+    #    ref: mirror_matrix_fifth_top
+    #    shift: [-pushX, pushY]
+    #- operation: subtract
+    #  what: circle
+    #  radius: 2
+    #  where:
+    #    ref: mirror_matrix_fourth_bottom
+    #    shift: [-pushX, pushY]
+
+    # Thumb luknja ne bo delovala - pre blizu luknje za tipko
+    #- operation: stack
+    #  what: circle
+    #  radius: 2
+    #  where:
+    #    ref: thumbs_t1_thumb
+    #    shift: [-0.8pushX, 0.8pushY]
+  standoffs_right:
+    - what: circle
+      operation: stack
+      radius: 2
+      where:
+        ref: mirror_matrix_first_bottom
+        shift: [pushX, -pushY]
+
+    - what: circle
+      operation: stack
+      radius: 2
+      where:
+        ref: mirror_matrix_second_num
+        shift: [-pushX, -pushY]
+
+    - what: circle
+      operation: stack
+      radius: 2
+      where:
+        ref: mirror_matrix_fifth_top
+        shift: [-pushX, pushY]
+
+    - what: circle
+      operation: stack
+      radius: 2
+      where:
+        ref: mirror_matrix_fourth_bottom
+        shift: [-pushX, pushY]
+
+    - what: circle
+      operation: stack
+      radius: 2
+      where:
+        ref: mirror_matrix_fifth_mod
+        shift: [-pushX, pushY]
+
+  standoffs_right_xl:
+    - what: circle
+      operation: stack
+      radius: 3.3
+      where:
+        ref: mirror_matrix_first_bottom
+        shift: [pushX, -pushY]
+
+    - what: circle
+      operation: stack
+      radius: 3.3
+      where:
+        ref: mirror_matrix_second_num
+        shift: [-pushX, -pushY]
+
+    - what: circle
+      operation: stack
+      radius: 3.3
+      where:
+        ref: mirror_matrix_fifth_top
+        shift: [-pushX, pushY]
+
+    - what: circle
+      operation: stack
+      radius: 3.3
+      where:
+        ref: mirror_matrix_fourth_bottom
+        shift: [-pushX, pushY]
+
+    - what: circle
+      operation: stack
+      radius: 3.3
+      where:
+        ref: mirror_matrix_fifth_mod
+        shift: [-pushX, pushY]
+
+  standoffs_right_xs:
+    - what: circle
+      operation: stack
+      radius: 0.9
+      where:
+        ref: mirror_matrix_first_bottom
+        shift: [pushX, -pushY]
+
+    - what: circle
+      operation: stack
+      radius: 0.9
+      where:
+        ref: mirror_matrix_second_num
+        shift: [-pushX, -pushY]
+
+    - what: circle
+      operation: stack
+      radius: 0.9
+      where:
+        ref: mirror_matrix_fifth_top
+        shift: [-pushX, pushY]
+
+    - what: circle
+      operation: stack
+      radius: 0.9
+      where:
+        ref: mirror_matrix_fourth_bottom
+        shift: [-pushX, pushY]
+
+    - what: circle
+      operation: stack
+      radius: 0.9
+      where:
+        ref: mirror_matrix_fifth_mod
+        shift: [-pushX, pushY]
+
+  standoffs_right_m:
+    - what: circle
+      operation: stack
+      radius: 2.3
+      where:
+        ref: mirror_matrix_first_bottom
+        shift: [pushX, -pushY]
+
+    - what: circle
+      operation: stack
+      radius: 2.3
+      where:
+        ref: mirror_matrix_second_num
+        shift: [-pushX, -pushY]
+
+    - what: circle
+      operation: stack
+      radius: 2.3
+      where:
+        ref: mirror_matrix_fifth_top
+        shift: [-pushX, pushY]
+
+    - what: circle
+      operation: stack
+      radius: 2.3
+      where:
+        ref: mirror_matrix_fourth_bottom
+        shift: [-pushX, pushY]
+
+    - what: circle
+      operation: stack
+      radius: 2.3
+      where:
+        ref: mirror_matrix_fifth_mod
+        shift: [-pushX, pushY]
+
+  standoffs_top_right_screw_part:
+    - name: standoffs_right
+    - operation: subtract
+      name: standoffs_right_xs
+
+  walls_right:
+    - name: board_right_xl
+    - operation: subtract
+      name: board_right_l
+
+  standoffs_right_bottom_thumbs:
+    - what: circle
+      operation: stack
+      radius: 2.3
+      where:
+        ref: mirror_thumbs_t2_thumb
+        shift: [-pushX, pushY.8]
+
+  standoffs_bottom_right:
+    - name: standoffs_right_xl
+    - operation: subtract
+      name: standoffs_right_m
+
+  plate_bottom_right_screw_head_part:
+    - name: board_right_l
+    - operation: subtract
+      name: standoffs_right
+
+  plate_bottom_right_screw_part:
+    - name: board_right_l
+    - operation: subtract
+      name: standoffs_right_xs
 
 pcbs:
   left:
