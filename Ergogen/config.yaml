@@ -92,7 +92,7 @@ outlines:
   keys:
     - what: rectangle
       where: true
-      size: [14, 14]
+      size: [14.5, 14.5]
       fillet: 0
 
   board_left:
